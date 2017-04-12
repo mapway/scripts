@@ -6,5 +6,5 @@
    
    su hadoop
    cd ~/
-   ssh-keygen -t dsa -P '' -f ~/.ssh/id_rsa
+   ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
    
