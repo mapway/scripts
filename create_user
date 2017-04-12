@@ -1,4 +1,6 @@
    
+   #!/bin/sh
+   set -e
    #create user hadoop in group hadoop and set password hadoop
    groupadd hadoop
    useradd -d /home/hadoop -m hadoop -g hadoop -G root
