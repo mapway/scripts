@@ -1,0 +1,10 @@
+   
+   #create user hadoop in group hadoop and set password hadoop
+   groupadd hadoop
+   useradd -d /home/hadoop -m hadoop -g hadoop -G root
+   echo 'hadoop' | passwd --stdin hadoop
+   
+   su hadoop
+   cd ~/
+   ssh-keygen -t dsa -P '' -f ~/.ssh/id_rsa
+   
